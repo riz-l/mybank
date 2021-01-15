@@ -1,15 +1,17 @@
 // Import: Dependencies
 import React from "react";
-import { Text, View } from "react-native";
 
 // Import: Elements
-// import {} from "./CardsScreen.elements";
+import { Container } from "./CardsScreen.elements";
+
+// Import: Components
+import { Text } from "../../components";
 
 // Screen: CardsScreen
 export default function CardsScreen() {
   return (
-    <View>
-      <Text>Cards Screen</Text>
-    </View>
+    <Container>
+      <Text>My Cards</Text>
+    </Container>
   );
 }

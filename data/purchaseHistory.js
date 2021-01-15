@@ -33,8 +33,8 @@ export default [
   },
   {
     id: "571f5df3263b4f3482ed1dcc72cfacaa",
-    product: "Testtttttttttt",
-    store: "USB-C Cable",
+    product: "USB-C Cable",
+    store: "eBay",
     price: "4.33",
     purchaseData: "2020-09-03",
     address: "5 Nazareth Terrace, Penrhyndeudraeth, LL48 6PR",
