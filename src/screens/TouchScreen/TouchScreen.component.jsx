@@ -52,7 +52,7 @@ export default function TouchScreen({ navigation }) {
         </Text>
       </PinAccess>
 
-      <StatusBar barStyle="light-content" />
+      <StatusBar backgroundColor="#1e1e1e" barStyle="light-content" />
     </Container>
   );
 }

@@ -22,7 +22,7 @@ export default function PinScreen({ navigation }) {
 
   useEffect(() => {
     if (pinCount === totalPins) {
-      navigation.navigate("Home");
+      navigation.navigate("Tabs");
     }
   }, [pinCount]);
 
@@ -74,7 +74,7 @@ export default function PinScreen({ navigation }) {
 
       <NumberPad onPress={pressKey} />
 
-      <StatusBar barStyle="light-content" />
+      <StatusBar backgroundColor="#1e1e1e" barStyle="light-content" />
     </Container>
   );
 }

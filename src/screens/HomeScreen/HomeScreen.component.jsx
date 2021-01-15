@@ -3,7 +3,7 @@ import React from "react";
 import { View, Text } from "react-native";
 
 // Import: Elements
-import {} from "./HomeScreen.elements";
+// import {} from "./HomeScreen.elements";
 
 // Screen: HomeScreen
 export default function HomeScreen() {

@@ -34,7 +34,7 @@ export const Touch = styled.TouchableOpacity`
 `;
 
 // Element: TouchButton
-export const TouchButton = styled.TouchableOpacity`
+export const TouchButton = styled.View`
   background-color: #5196f4;
   border-radius: 100px;
   padding: 8px;
