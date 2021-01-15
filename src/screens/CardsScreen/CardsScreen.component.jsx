@@ -3,13 +3,13 @@ import React from "react";
 import { Text, View } from "react-native";
 
 // Import: Elements
-// import {} from "./CardScreen.elements";
+// import {} from "./CardsScreen.elements";
 
-// Screen: CardScreen
-export default function CardScreen() {
+// Screen: CardsScreen
+export default function CardsScreen() {
   return (
     <View>
-      <Text>Card Screen</Text>
+      <Text>Cards Screen</Text>
     </View>
   );
 }

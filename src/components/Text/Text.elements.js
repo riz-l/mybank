@@ -25,7 +25,7 @@ export const StyledText = styled.Text`
     }
   }}
 
-  ${({ light, bold, heavy, block }) => {
+  ${({ light, bold, heavy, black }) => {
     switch (true) {
       case light:
         return "font-weight: 200";
@@ -33,7 +33,7 @@ export const StyledText = styled.Text`
         return "font-weight: 600";
       case heavy:
         return "font-weight: 700";
-      case block:
+      case black:
         return "font-weight: 900";
 
       default:

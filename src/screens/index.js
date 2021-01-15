@@ -1,5 +1,5 @@
-// Export: CardScreen
-export { default as CardScreen } from "./CardScreen/CardScreen.component";
+// Export: CardsScreen
+export { default as CardsScreen } from "./CardsScreen/CardsScreen.component";
 
 // Export: HomeScreen
 export { default as HomeScreen } from "./HomeScreen/HomeScreen.component";
