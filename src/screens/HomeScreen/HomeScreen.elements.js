@@ -1,6 +1,11 @@
 // Import: Dependencies
 import styled from "styled-components/native";
 
+// Element: Chart
+export const Chart = styled.View`
+  margin: 32px 0;
+`;
+
 // Element: Container
 export const Container = styled.SafeAreaView`
   background-color: #1e1e1e;

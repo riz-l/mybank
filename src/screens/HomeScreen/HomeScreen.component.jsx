@@ -1,12 +1,15 @@
 // Import: Dependencies
 import React from "react";
+import { Dimensions } from "react-native";
 import { FontAwesome5, MaterialIcons, AntDesign } from "@expo/vector-icons";
+import { LineChart } from "react-native-chart-kit";
 
 // Import: Data
 import purchaseHistory from "../../../data/purchaseHistory";
 
 // Import: Elements
 import {
+  Chart,
   Container,
   Header,
   ProfilePhoto,
@@ -64,6 +67,35 @@ export default function HomeScreen() {
       <Text center heavy color="#727479">
         Current Balance
       </Text>
+
+      <Chart>
+        <LineChart
+          data={{
+            label: ["May", "June", "July", "Aug", "Sept", "Oct"],
+            datasets: [
+              {
+                data: [
+                  Math.random() * 10,
+                  Math.random() * 10,
+                  Math.random() * 10,
+                  Math.random() * 10,
+                  Math.random() * 10,
+                  Math.random() * 10,
+                ],
+              },
+            ],
+          }}
+          width={Dimensions.get("window").width}
+          height={250}
+          chartConfig={{
+            backgroundGradientFrom: "#1e1e1e",
+            backgroundGradientTo: "#1e1e1e",
+            color: (opacity = 1) => `rgba(81, 150, 244, ${opacity})`,
+            labelColor: () => `rgba(255, 255, 255, 0.2)`,
+            strokeWidth: 3,
+          }}
+        />
+      </Chart>
 
       <Purchases
         ListHeaderComponent={
