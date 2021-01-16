@@ -71,7 +71,7 @@ export default function HomeScreen() {
       <Chart>
         <LineChart
           data={{
-            labels: ["May", "June", "July", "Aug", "Sept", "Oct"],
+            labels: ["Aug", "Sep", "Oct", "Nov", "Dec", "Jan"],
             datasets: [
               {
                 data: [
