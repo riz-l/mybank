@@ -21,9 +21,9 @@ export const Header = styled.View`
 
 // Element: ProfilePhoto
 export const ProfilePhoto = styled.Image`
-  border-radius: 20px;
-  height: 40px;
-  width: 40px;
+  border-radius: 24px;
+  height: 48px;
+  width: 48px;
 `;
 
 // Element: Purchase

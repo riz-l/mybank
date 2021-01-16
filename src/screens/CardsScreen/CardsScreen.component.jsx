@@ -27,28 +27,28 @@ export default function CardsScreen() {
       color: "#5750f0",
       number: "1234",
       exp: "10/2020",
-      logo: require("../../../assets/images/logos/visa.png"),
+      logo: require("../../../assets/images/logos/visa-white.png"),
     },
     {
       id: "2",
       color: "#c84ff1",
       number: "5678",
       exp: "08/2022",
-      logo: require("../../../assets/images/logos/amazon.png"),
+      logo: require("../../../assets/images/logos/amazon-white.png"),
     },
     {
       id: "3",
       color: "#5298f7",
       number: "9012",
       exp: "04/2023",
-      logo: require("../../../assets/images/logos/paypal.png"),
+      logo: require("../../../assets/images/logos/paypal-white.png"),
     },
     {
       id: "4",
       color: "#974ff2",
       number: "3456",
       exp: "02/2021",
-      logo: require("../../../assets/images/logos/mastercard.png"),
+      logo: require("../../../assets/images/logos/mastercard-white.png"),
     },
   ];
 
